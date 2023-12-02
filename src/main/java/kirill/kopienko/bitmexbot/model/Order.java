@@ -1,5 +1,10 @@
 package kirill.kopienko.bitmexbot.model;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Order {
     private Symbol symbol;
     private boolean isBuy;
